@@ -9,7 +9,43 @@
 </head>
 <body>
 
-    Hello
+    <div class="calc-body">
+
+        <div class="calc-display">
+            <input id="display" type="text" placeholder="0" readonly>
+        </div>
+
+        <div class="calcBtn-container">
+
+            <div class="numberBtn-container">
+                <button onclick="takeNumberOrSymbol('9')">9</button>
+                <button onclick="takeNumberOrSymbol('8')">8</button>
+                <button onclick="takeNumberOrSymbol('7')">7</button>
+                <button onclick="takeNumberOrSymbol('6')">6</button>
+                <button onclick="takeNumberOrSymbol('5')">5</button>
+                <button onclick="takeNumberOrSymbol('4')">4</button>
+                <button onclick="takeNumberOrSymbol('3')">3</button>
+                <button onclick="takeNumberOrSymbol('2')">2</button>
+                <button onclick="takeNumberOrSymbol('1')">1</button>
+                <button onclick="takeNumberOrSymbol('0')">0</button>
+                <button onclick="takeNumberOrSymbol('00')">00</button>
+                <button onclick="takeNumberOrSymbol('.')">.</button>
+            </div>
+
+            <div class="symbolBtn-container">
+                <button>AC</button>
+                <button>Delete</button>
+                <button>*</button>
+                <button>/</button>
+                <button>-</button>
+                <button>+</button>
+                <button>=</button>
+            </div>
+
+        </div>
+
+    </div>
+    
     
 
     <script src="./calculator.js"></script>
