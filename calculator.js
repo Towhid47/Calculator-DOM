@@ -22,6 +22,12 @@ function allClear(){
 function calculate(){
     let result = eval(display.value);
 
+    if( isNaN(result) === true ){
+       display.value = "Math Error!";
+    
+       return;
+    }
+
 
     //if the result is integer, then 
     if(result%1 == 0){
@@ -30,10 +36,8 @@ function calculate(){
     else{
         display.value = result.toFixed(5)
     }
-
     
 }
-
 
 function remove(){
     display.value = display.value.slice(0,-1); 

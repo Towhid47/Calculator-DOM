@@ -68,7 +68,7 @@ body{
 
 
 .symbolBtn-container > button{
-    background-color: darkorange;
+    background-color: rgb(185, 185, 185);
     font-size: 1rem;
     font-weight: bold;
 }
